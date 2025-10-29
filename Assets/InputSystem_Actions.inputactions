@@ -1018,6 +1018,17 @@
             "bindings": [
                 {
                     "name": "",
+                    "id": "7fd37fc2-6bdf-4032-ae3a-ed18db387d7e",
+                    "path": "<XRHMD>/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "ToggleFilter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3a70b6ec-1821-40c1-969d-c27a026ad1f3",
                     "path": "<Keyboard>/f",
                     "interactions": "",
@@ -1029,12 +1040,12 @@
                 },
                 {
                     "name": "",
-                    "id": "7fd37fc2-6bdf-4032-ae3a-ed18db387d7e",
-                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "id": "47b13d0e-aaaa-439b-bfd0-a9f169ece861",
+                    "path": "<XRHMD>/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": ";XR",
-                    "action": "ToggleFilter",
+                    "action": "CyclePredict",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1045,17 +1056,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "CyclePredict",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "47b13d0e-aaaa-439b-bfd0-a9f169ece861",
-                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";XR",
                     "action": "CyclePredict",
                     "isComposite": false,
                     "isPartOfComposite": false
